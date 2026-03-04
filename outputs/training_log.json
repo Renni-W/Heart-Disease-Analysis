@@ -1,0 +1,25 @@
+{
+  "model": "RandomForest (tuned)",
+  "best_params": {
+    "max_depth": 5,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "validation": {
+    "accuracy": 0.8260869565217391,
+    "f1": 0.8461538461538461,
+    "auroc": 0.9204159592529711
+  },
+  "test": {
+    "accuracy": 0.8840579710144928,
+    "f1": 0.8961038961038961,
+    "auroc": 0.9248726655348047
+  },
+  "cv_auroc_mean": 0.9247737829737062,
+  "cv_auroc_std": 0.024055361685176097,
+  "cv_f1_mean": 0.8697509059613655,
+  "seed": 42,
+  "train_size": 642,
+  "val_size": 138,
+  "test_size": 138
+}
